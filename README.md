@@ -4,25 +4,26 @@
 PropertyMatchBot is a Telegram bot integrated with a FastAPI backend to provide personalized property recommendations based on user profiles and preferences. The bot also handles subscriptions, tenant profiles, and property suggestions.
 
 ## Project Structure
-
-project/
-│
-├── backend/
-│ ├── init.py
-│ ├── main.py
-│ ├── models.py
-│ ├── database.py
-│ ├── schemas.py
-│ └── utils.py
-│
-├── bot/
-│ ├── init.py
-│ ├── bot.py
-│ └── handlers.py
+```
+PropMatchBot/
 │
 ├── requirements.txt
-├── README.md
-└── .env
+│
+├── backend/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models.py
+│   ├── database.py
+│   ├── utils.py
+│
+├── bot/
+│   ├── __init__.py
+│   ├── bot.py
+│   └── handlers.py
+│
+├── .env
+└── README.md
+```
 
 
 ## Setup
